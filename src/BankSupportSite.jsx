@@ -51,12 +51,11 @@ function Hero() {
       </div>
 
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
-        {/* Left: copy */}
         <motion.div
           initial="hidden"
           animate="show"
           variants={stagger}
-          className="relative z-10 order-2 lg:order-1"
+          className="relative z-10 order-1 lg:hidden"
         >
           <motion.div
             variants={fadeUp}
@@ -68,6 +67,30 @@ function Hero() {
           <motion.h1
             variants={fadeUp}
             className="font-serif text-[2.75rem] font-bold leading-[1.05] text-[#0F1B3D] sm:text-6xl"
+          >
+            Branch manager
+            <br />
+            <span className="text-[#B8862F]">Vivek</span>
+          </motion.h1>
+        </motion.div>
+
+        {/* Left: copy */}
+        <motion.div
+          initial="hidden"
+          animate="show"
+          variants={stagger}
+          className="relative z-10 order-3 lg:order-1"
+        >
+          <motion.div
+            variants={fadeUp}
+            className="mb-6 hidden items-center rounded-full border border-[#D4A24C]/40 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#0F1B3D] lg:inline-flex"
+          >
+            Trust &middot; Service &middot; Excellence
+          </motion.div>
+
+          <motion.h1
+            variants={fadeUp}
+            className="hidden font-serif text-[2.75rem] font-bold leading-[1.05] text-[#0F1B3D] sm:text-6xl lg:block"
           >
             Branch manager
             <br />
@@ -128,7 +151,7 @@ function Hero() {
           initial={{ opacity: 0, scale: 0.94 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
-          className="relative z-10 order-1 lg:order-2"
+          className="relative z-10 order-2 lg:order-2"
         >
           <div className="relative overflow-hidden rounded-3xl shadow-2xl">
             <img
