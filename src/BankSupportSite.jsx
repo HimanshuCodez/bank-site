@@ -56,7 +56,7 @@ function Hero() {
           initial="hidden"
           animate="show"
           variants={stagger}
-          className="relative z-10"
+          className="relative z-10 order-2 lg:order-1"
         >
           <motion.div
             variants={fadeUp}
@@ -69,9 +69,9 @@ function Hero() {
             variants={fadeUp}
             className="font-serif text-[2.75rem] font-bold leading-[1.05] text-[#0F1B3D] sm:text-6xl"
           >
-            Customer
+            Branch manager
             <br />
-            <span className="text-[#B8862F]">First Support</span>
+            <span className="text-[#B8862F]">Vivek</span>
           </motion.h1>
 
           <motion.p
@@ -128,7 +128,7 @@ function Hero() {
           initial={{ opacity: 0, scale: 0.94 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
-          className="relative z-10"
+          className="relative z-10 order-1 lg:order-2"
         >
           <div className="relative overflow-hidden rounded-3xl shadow-2xl">
             <img
