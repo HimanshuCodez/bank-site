@@ -64,14 +64,14 @@ function Hero() {
             Trust &middot; Service &middot; Excellence
           </motion.div>
 
-          <motion.h1
-            variants={fadeUp}
-            className="font-serif text-[2.75rem] font-bold leading-[1.05] text-[#0F1B3D] sm:text-6xl"
-          >
-            Branch manager
-            <br />
-            <span className="text-[#B8862F]">Nikhil</span>
-          </motion.h1>
+        <motion.h1
+  variants={fadeUp}
+  className="font-serif text-[2.75rem] font-bold leading-[1.05] text-[#0F1B3D] sm:text-6xl"
+>
+  <span className="whitespace-nowrap">Branch manager</span>
+  <br />
+  <span className="text-[#B8862F]">Nikhil</span>
+</motion.h1>
         </motion.div>
 
         {/* Left: copy */}
