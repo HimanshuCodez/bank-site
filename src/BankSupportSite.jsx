@@ -50,7 +50,7 @@ function Hero() {
         <Landmark size={420} strokeWidth={1} className="text-[#0F1B3D]" />
       </div>
 
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-6 pt-10 pb-16 lg:grid-cols-2 lg:items-center lg:gap-12 lg:py-28">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-6 pt-6 pb-10 sm:pt-8 sm:pb-12 lg:grid-cols-2 lg:items-center lg:gap-12 lg:py-28">
         <motion.div
           initial="hidden"
           animate="show"
@@ -157,7 +157,7 @@ function Hero() {
             <img
               src={managerPhoto}
               alt="Banking specialist at the support desk"
-              className="h-[520px] w-full object-cover sm:h-[560px]"
+              className="h-[380px] w-full object-cover sm:h-[560px]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0F1B3D]/80 via-[#0F1B3D]/0 to-transparent" />
 
