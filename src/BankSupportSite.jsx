@@ -232,9 +232,9 @@ function ContactCards() {
       icon: Mail,
       title: "Secure Message",
       desc: "Send confidential inquiries through online banking.",
-      value: "support@meridian.com",
+      value: "support@HelpWiseDeck.com",
       meta: "Reply within 4 hours",
-      href: "mailto:support@meridian.com",
+      href: "mailto:support@HelpWiseDeck.com",
     },
   ];
 
@@ -483,7 +483,7 @@ function FAQ() {
   const faqs = [
     {
       q: "How do I report a lost or stolen card?",
-      a: `Call us immediately at ${SUPPORT_NUMBER_DISPLAY} or freeze your card instantly in the Meridian mobile app under Cards → Manage.`,
+      a: `Call us immediately at ${SUPPORT_NUMBER_DISPLAY} or freeze your card instantly in the HelpWiseDeck mobile app under Cards → Manage.`,
     },
     {
       q: "What should I do if I notice unauthorized activity?",
@@ -623,7 +623,7 @@ function CTAFooter() {
               <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-white">
                 <Landmark size={18} className="text-[#0F1B3D]" />
               </span>
-              <span className="font-serif text-lg font-bold">Meridian</span>
+              <span className="font-serif text-lg font-bold">HelpWiseDeck</span>
             </div>
             <p className="mt-4 text-sm text-white/50">
               Trusted private banking since 1894.
@@ -681,7 +681,7 @@ function Navbar() {
           </span>
           <div className="leading-none">
             <p className="font-serif text-base font-bold text-[#0F1B3D]">
-              Meridian
+              HelpWiseDeck
             </p>
             <p className="text-[10px] uppercase tracking-[0.15em] text-[#9AA1B0]">
               Private Bank
