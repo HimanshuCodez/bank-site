@@ -50,7 +50,7 @@ function Hero() {
         <Landmark size={420} strokeWidth={1} className="text-[#0F1B3D]" />
       </div>
 
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 py-20 lg:grid-cols-2 lg:items-center lg:py-28">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-6 pt-10 pb-16 lg:grid-cols-2 lg:items-center lg:gap-12 lg:py-28">
         <motion.div
           initial="hidden"
           animate="show"
