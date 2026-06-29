@@ -70,7 +70,7 @@ function Hero() {
           >
             Branch manager
             <br />
-            <span className="text-[#B8862F]">Vivek</span>
+            <span className="text-[#B8862F]">Nikhil</span>
           </motion.h1>
         </motion.div>
 
@@ -94,7 +94,7 @@ function Hero() {
           >
             Branch manager
             <br />
-            <span className="text-[#B8862F]">Vivek</span>
+            <span className="text-[#B8862F]">Nikhil</span>
           </motion.h1>
 
           <motion.p
