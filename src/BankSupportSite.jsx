@@ -30,13 +30,7 @@ function Hero() {
         <Landmark size={420} strokeWidth={1} className="text-[#0F1B3D]" />
       </div>
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-6 pt-6 pb-8 sm:pt-8 sm:pb-10 lg:grid-cols-2 lg:items-center lg:gap-12 lg:py-20">
-        <motion.div initial="hidden" animate="show" variants={stagger} className="relative z-10 order-1 lg:hidden" >
-          <motion.h1 variants={fadeUp} className="font-serif text-[2.5rem] font-bold leading-[1.05] text-[#0F1B3D] sm:text-6xl" >
-            <span className="whitespace-nowrap">Branch manager</span>
-            <br />
-            <span className="text-[#B8862F]">Nikhil</span>
-          </motion.h1>
-        </motion.div>
+       
 
         {/* Left: copy */}
         <motion.div initial="hidden" animate="show" variants={stagger} className="relative z-10 order-3 lg:order-1" >
