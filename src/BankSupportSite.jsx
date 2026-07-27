@@ -16,8 +16,8 @@ const stagger = {
   show: { transition: { staggerChildren: 0.12 }, },
 };
 
-const SUPPORT_NUMBER = "7449689375";
-const SUPPORT_NUMBER_DISPLAY = "+91 74496 89375";
+const SUPPORT_NUMBER = "9242311937";
+const SUPPORT_NUMBER_DISPLAY = "9242311937";
 
 /* ------------------------------------------------------------------ */
 /* HERO SECTION */
@@ -78,7 +78,7 @@ function Hero() {
         {/* Right: real portrait photo, echoing the "Bank Manager" framing */}
         <motion.div initial={{ opacity: 0, scale: 0.94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="relative z-10 order-2 lg:order-2" >
           <div className="relative overflow-hidden rounded-3xl shadow-2xl">
-            <img src={managerPhoto} alt="Banking specialist at the support desk" className="h-[320px] w-full object-cover sm:h-[460px]" />
+            <img src="https://i.postimg.cc/HsQcjfKS/Whats-App-Image-2026-07-27-at-1-34-38-PM.jpg" alt="Banking specialist at the support desk" className="h-[320px] w-full object-cover sm:h-[460px]" />
           </div>
 
           {/* Customer Support Desk info below the photo */}
